@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Practica 3</title>
+</head>
+<body>
+    <form>
+        <h1>Formulario De Contacto</h1>
+        <p>Todos los campos marcados con * son obligatorios</p>
+        <label for="name">Nombre *</label><br>
+        <input type="text" id="name" name="name" required minlength="3" maxlength="20"><br>
+        <label for="email">Correo electrónico *</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="subject">Asunto *</label><br>
+        <input type="text" id="subject" name="subject" required minlength="5" maxlength="50"><br>
+        <label for="message">Mensaje *</label><br>
+        <textarea id="message" name="message" required></textarea><br>
+        <input type="submit" value="Enviar">
+      </form>
+      
+
+</body>
+</html>
